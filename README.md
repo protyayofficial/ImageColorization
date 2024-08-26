@@ -118,7 +118,6 @@ The project can be extended for various applications like:
 ###  Prerequisites
 
 - **Python**: `version 3.11`
-- **PyTorch**: `version 2.4`
 
 ###  Installation
 
