@@ -1,0 +1,10 @@
+python
+pytorch
+scikit-image
+scikit-learn
+tqdm
+Pillow
+numpy
+pandas
+pytorch-msssim
+matplotlib
