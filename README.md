@@ -22,7 +22,6 @@
 - [Features](#features)
 - [Repository Structure](#repository-structure)
 - [Modules](#modules)
-- [](#)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -111,6 +110,7 @@ The project can be extended for various applications like:
 | [pix2pixMetricMeters.py](https://github.com/protyayofficial/ImageColorization/blob/main/utils/pix2pixMetricMeters.py) | This utility provides functionality for tracking various metrics during training and validation, such as accuracy, PSNR (Peak Signal-to-Noise Ratio), and other performance indicators. |
 
 </details>
+
 ---
 
 ##  Getting Started
@@ -168,8 +168,6 @@ Execute the test suite using the following command:
 - [ ] **`Task 7`**: Enhance the architecture to achieve more realistic and vivid image colorization using advanced GAN methodologies and novel techniques.
 - [ ] **`Task 8`**: Conduct extensive hyperparameter tuning to optimize model performance and achieve better convergence.
 - [ ] **`Task 9`**: Deploy the project as a fully functional web application, allowing users to upload grayscale images and receive colorized outputs, utilizing React, Vite, and Tailwind CSS.
-
-
 
 ---
 
