@@ -63,6 +63,8 @@ The project can be extended for various applications like:
     ├── README.md
     ├── models
     │   └── pix2pix.py
+    ├── scripts
+    │   └── train_pix2pix.sh
     ├── test.py
     ├── train.py
     └── utils
@@ -97,6 +99,14 @@ The project can be extended for various applications like:
 | File | Summary |
 | --- | --- |
 | [pix2pix.py](https://github.com/protyayofficial/ImageColorization/blob/main/models/pix2pix.py) | This file contains the Pix2Pix architecture for image colorization, implementing both the generator (UNet-based) and discriminator (PatchGAN-based) models. It also includes the forward pass and loss calculations specific to the Pix2Pix model. |
+
+</details>
+
+<details open><summary>Scripts</summary>
+
+| File | Summary |
+| --- | --- |
+| [train_pix2pix.sh](https://github.com/protyayofficial/ImageColorization/blob/main/scripts/train_pix2pix.sh) | This file contains the script to train the Pix2Pix model. |
 
 </details>
 
@@ -143,7 +153,15 @@ Build the project from source:
 To run the project, execute the following command:
 
 ```sh
-❯ python train.py
+❯ chmod +x scripts/train_{model_name}.sh 
+❯ scripts/train_{model_name}.sh
+```
+
+For example: 
+
+```sh
+❯ chmod +x scripts/train_pix2pix.sh 
+❯ scripts/train_pix2pix.sh
 ```
 
 ###  Tests
@@ -223,7 +241,7 @@ This project is protected under the [MIT License](https://choosealicense.com/lic
 
 ## Acknowledgments
 
-- This project is inspired by the pioneering work of **Isola _et al._**, whose **Pix2Pix model** has revolutionized the field of image-to-image translation using conditional GANs. Their seminal paper, ["Image-to-Image Translation with Conditional Adversarial Networks"](https://arxiv.org/abs/1611.07004), played a crucial role in shaping the techniques I used for image colorization in this project. The ideas they introduced have been foundational and transformative in the development of GAN-based methodologies.
+- This project is inspired by the pioneering work of **Isola _et al._**, whose **Pix2Pix model** has revolutionized the field of image-to-image translation using conditional GANs. Their seminal paper, ["Image-to-Image Translation with Conditional Adversarial Networks"](https://arxiv.org/abs/1611.07004), played a crucial role in shaping the techniques I used for image colorization in this project. I also appreciate the comprehensive [GitHub repository associated with their paper](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), which was invaluable for understanding and implementing the GAN architecture. Some code was adapted and simplified from their repository to better fit the requirements of this project.
 
 - A special thank you goes to **Moein Shariatnia**, whose insightful article, ["Colorizing Black & White Images with U-Net and Conditional GAN"](https://towardsdatascience.com/colorizing-black-white-images-with-u-net-and-conditional-gan-a-tutorial-81b2df111cd8), offered practical guidance for combining U-Net architectures with GANs in the context of image colorization. His tutorial was instrumental in refining the techniques employed in this project. You can explore more of his work through his [GitHub](https://github.com/moein-shariatnia).
 ---
