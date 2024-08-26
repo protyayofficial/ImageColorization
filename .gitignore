@@ -3,3 +3,4 @@ coco/
 *.ipynb
 experiments/
 results/
+*__pycache__/
