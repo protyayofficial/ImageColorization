@@ -134,7 +134,7 @@ def main():
     parser.add_argument('--num_epochs', type=int, default=100, help='Number of epochs for training.')
     parser.add_argument('--visualize_interval', type=int, default=10, help='Interval for visualization.')
     parser.add_argument('--metrics_interval', type=int, default=1, help='Interval for metrics calculation.')
-    parser.add_argument('--seed', type=int, default=42, help='Seed for reproducibility.')
+    parser.add_argument('--seed', type=int, default=9, help='Seed for reproducibility.')
     parser.add_argument('--save_dir', type=str, default='experiments', help='Directory to save models and logs.')
     parser.add_argument('--model_name', type=str, default='pix2pix', help='Base name for saving model files.')
     parser.add_argument('--train_data_path', type=str, default='coco/test2017', help='Path to training data.')

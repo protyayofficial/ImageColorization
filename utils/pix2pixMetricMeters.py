@@ -178,7 +178,7 @@ def visualize(model, data, SAVE_DIR, epoch, save=True):
         ax.axis('off')
 
     plt.tight_layout()
-    plt.show()
+    # plt.show()
 
     if save:
         fig.savefig(f"{SAVE_DIR}/pix2pix_{epoch}.png")
