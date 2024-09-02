@@ -1,5 +1,5 @@
 python
-pytorch
+torch
 scikit-image
 scikit-learn
 tqdm
@@ -8,3 +8,4 @@ numpy
 pandas
 pytorch-msssim
 matplotlib
+fastai

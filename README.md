@@ -182,9 +182,10 @@ Execute the test suite using the following command:
 - [X] **`Task 4`**: Designed and implemented the training loop, with accurate loss calculation, backpropagation, and regular model checkpointing.
 - [X] **`Task 5`**: Developed a baseline Pix2Pix model for image colorization, establishing the foundation for future model improvements.
 - [X] **`Task 6`**: Integrated evaluation metrics like SSIM, PSNR, and FID, enabling rigorous testing of the model's performance against real images from the dataset.
-- [ ] **`Task 7`**: Enhance the architecture to achieve more realistic and vivid image colorization using advanced GAN methodologies and novel techniques.
-- [ ] **`Task 8`**: Conduct extensive hyperparameter tuning to optimize model performance and achieve better convergence.
-- [ ] **`Task 9`**: Deploy the project as a fully functional web application, allowing users to upload grayscale images and receive colorized outputs, utilizing React, Vite, and Tailwind CSS.
+- [X] **`Task 7`**: Implemented pretrained backbone unet using fastai since the training images are less than what was used in the original literature.
+- [ ] **`Task 8`**: Enhance the architecture to achieve more realistic and vivid image colorization using advanced GAN methodologies and novel techniques.
+- [ ] **`Task 9`**: Conduct extensive hyperparameter tuning to optimize model performance and achieve better convergence.
+- [ ] **`Task 10`**: Deploy the project as a fully functional web application, allowing users to upload grayscale images and receive colorized outputs, utilizing React, Vite, and Tailwind CSS.
 
 ---
 

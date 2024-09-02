@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set default values for arguments
-BATCH_SIZE=64
+BATCH_SIZE=16
 NUM_WORKERS=4
 NUM_EPOCHS=100
 VISUALIZE_INTERVAL=10

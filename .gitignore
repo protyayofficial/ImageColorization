@@ -1,6 +1,7 @@
 coco/
 *.jpg
 *.ipynb
-experiments/
+experiment*/
 results/
-*__pycache__/
+*/__pycache__/
+__pycache__/
